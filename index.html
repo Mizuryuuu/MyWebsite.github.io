@@ -5,9 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>MyWebsite Companny</title>
-    <link rel="stylesheet" href="indeks.css">
-    <link rel="stylesheet" href="didin.css">
-
+    <link rel="stylesheet" href="16.css">
     <link rel="stylesheet"
   href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
 
@@ -25,11 +23,10 @@
 
     <ul class="navlist">
         <li><a href="#home">Home</a></li>
-        <li><a href="#home">About</a></li>
         <li><a href="#artikel">Artikel</a></li>
-        <li><a href="#contact">Service</a></li>
+        <li><a href="#about">About</a></li>
     </ul>
-    <a href="#" class="top-btn">Profile</a>
+    <a href="#contact" class="top-btn">Service</a>
 </header>
 
 <!-- Home -->
@@ -86,68 +83,88 @@
 
 <!-- artikel -->
 
+<section id="artikel">
 <div class="container">
+        <div class="coli">
+            <h1>My Artikel</h1>
+        </div>
     <div class="artikel">
     <div class="row">
-        <div class="col">
-            <h1 id="artikel">My Artikel</h1>
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Earum, delectus, iure dolores, animi numquam nisi fuga saepe ex dolorem consequuntur sit magni molestiae dolorum cupiditate omnis! Aut quidem ab provident.</p>
-            <button type="button">Jelajahi</button>
-        </div>
+        
         <div class="col">
             <div class="card card1">
                 <h5>Candi Borobudur</h5>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi, unde. Modi, quae excepturi repudiandae rerum qui, veritatis cupiditate, labore unde ex cumque similique vel nostrum autem natus quas. Minus, ut.</p>
-                <button class="button">Read More...</button>
+                <button class="button"><a href="/artikel.html">Read More...</a></button>
             </div>
             <div class="card card2">
                 <h5>Candi Prambanan</h5>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi, unde. Modi, quae excepturi repudiandae rerum qui, veritatis cupiditate, labore unde ex cumque similique vel nostrum autem natus quas. Minus, ut.</p>
-                <button type="button">Read More...</button>
+                <button type="button"><a href="/artikel1.html">Read More...</a></button>
             </div>
             <div class="card card3">
                 <h5>Candi Muara Takus</h5>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi, unde. Modi, quae excepturi repudiandae rerum qui, veritatis cupiditate, labore unde ex cumque similique vel nostrum autem natus quas. Minus, ut.</p>
-                <button type="button">Read More...</button>
+                <button type="button"><a href="/Artikel2.html">Read More...</a></button>
             </div>
             <div class="card card4">
                 <h5>Candi Gedong Songo</h5>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi, unde. Modi, quae excepturi repudiandae rerum qui, veritatis cupiditate, labore unde ex cumque similique vel nostrum autem natus quas. Minus, ut.</p>
-                <button type="button">Read More...</button>
+                <button type="button"><a href="/Artikel3.html">Read More...</a></button>
             </div>
             <div class="card card1">
                 <h5>Candi Borobudur</h5>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi, unde. Modi, quae excepturi repudiandae rerum qui, veritatis cupiditate, labore unde ex cumque similique vel nostrum autem natus quas. Minus, ut.</p>
-                <button class="button">Read More...</button>
+                <button class="button"><a href="/artikel1.html">Read More...</a></button>
             </div>
             <div class="card card2">
                 <h5>Candi Prambanan</h5>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi, unde. Modi, quae excepturi repudiandae rerum qui, veritatis cupiditate, labore unde ex cumque similique vel nostrum autem natus quas. Minus, ut.</p>
-                <button type="button">Read More...</button>
+                <button type="button"><a href="/Artikel2.html">Read More...</a></button>
             </div>
         </div>
     </div>
 </div>
 </div>
+</section>
+
+<!-- about -->
+
+<section class="about" id="about">
+        <div class="main">
+            <img src="/img/kelompok.png">
+            <div class="about-text">
+                <h2>Kelompok 8</h2>
+                <h5>Website <span style="color: #f9004d;">tentang </span>artikel</h5>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. In, eligendi. Assumenda illum eveniet quae 
+                    necessitatibus consequuntur modi magni molestias rem mollitia quibusdam. Nobis fugit eum ex saepe esse officia modi.
+                    Sint neque, laboriosam sunt, fuga deserunt expedita nihil incidunt, eligendi voluptas quas reprehenderit placeat quaerat 
+                    eveniet velit illum corporis est aliquam? Cumque et suscipit non molestias dignissimos. Necessitatibus, dignissimos similique?</p>
+                    <form><button type="button" class="button"><a href="https://api.whatsapp.com/send?phone=6287861597744">Lest's Talk</a></button>
+                    <button type="button" class="button"><a href="#home">Back</a></button></form>
+            </div>
+        </div>
+</section>  
 
 <!-- contact -->
 
 <section class="contact" id="contact">
-    <div class="conten">
+    <div class="containers">
         <div class="center">
             <h3>Let's talk about everything</h3>
-            <p>Don't like forms? send we an email</p>
+            <p>Don't like forms? Send me an email.</p>
         </div>
-        
+
         <div class="action">
             <form>
-                <input type="email" name="email" placeholder="Enter Your Email" required>
-                <textarea type="textarea" cols="90" rows="5"  placeholder="Enter Your Massagese"></textarea>
-                <input type="submit" name="submit" value="submit">
+                <input type="email" name="email" placeholder="Enter Your email" required>
+                <textarea type="textarea" name="textarea" cols="83" rows="4" placeholder="Send Your Massagese"></textarea>
+                <input type="submit" name="submit" value="Submit">
             </form>
         </div>
     </div>
 </section>
+
 
 <!-- ends -->
 

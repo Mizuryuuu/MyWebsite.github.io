@@ -290,14 +290,15 @@ header.sticky {
 }
 
 .contact .action form input[type="submit"]:hover {
-    background: lime;
+    background: white;
     color: var(--text-color);
+    border: 2px solid var(--main-color);
     transform: scale(1.1);
     transition: ease .40s;
 }
 
 .contact .action form textarea[type="textarea"] {
-    padding: 20px 40px;
+    padding: 12px 25px;
     background: var(--bg-color);
     color: var(--text-color);
     cursor: pointer;
@@ -305,7 +306,7 @@ header.sticky {
     outline: none;
     resize: none;
     margin: 0 10px 20px 0;
-    border-radius: 30px;
+    border-radius: 20px;
 }
 
 .ends {
@@ -316,4 +317,197 @@ header.sticky {
 .ends p {
     font-size: var(--p-font);
     letter-spacing: 1px;
+}
+
+.container{
+    width: 100%;
+    height: 130.5vh;
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(./img/background.a.jpg);
+    background-position: center;
+    background-size: cover;
+    padding-left: 8%;
+    padding-right: 8%;
+    box-sizing: border-box;
+}
+
+.row{
+    display: flex;
+    height: 88%;
+    align-items: center;
+}
+
+.coli h1{
+    color: #fff;
+    font-size: 100px;
+    text-align: center;
+    padding-top: 65px;
+}
+.artikel p{
+    color: #fff;
+    font-size: 11px;
+    font-weight: 500;
+    line-height: 15px;
+}
+
+.coli p{
+    color: #fff;
+    font-size: 11px;
+    font-weight: 500;
+    line-height: 15px;
+    text-align: center;
+}
+
+.artikel .col button {
+    width: 150px;
+    color: #000;
+    font-size: 12px;
+    padding: 12px 0;
+    background:#fff;
+    border: 0;
+    border-radius: 20px;
+    outline: none;
+    margin-top: 30px;
+}
+
+.coli button {
+    width: 150px;
+    color: #000;
+    font-weight: 500;
+    font-size: 12px;
+    padding: 12px 0;
+    background:#fff;
+    border: 0;
+    margin-left: 40%;
+    border-radius: 20px;
+    outline: none;
+    margin-top: 30px;
+}
+
+.card{
+    width: 200px;
+    height: 230px;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 15px 25px;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin: 20px 15px;
+    margin-left: 50px;
+    background-position: center;
+    background-size: cover;;
+    transition: transform 0.5s;
+}
+.card1{
+    background-image: url(./img/candi-1.png);
+}
+.card2{
+    background-image: url(./img/candi-2.png);
+}
+.card3{
+    background-image: url(./img/candi-3.png);
+}
+.card4{
+    background-image: url(./img/candi-4.png);
+}
+.card:hover{
+    transform: translateY(-10px);
+}
+.artikel h5{
+    color: #000;
+    text-shadow: 0 0 5px #999;
+    font-weight: 500;
+}
+.card p{
+    text-shadow: 0 0 15px #000;
+    font-size: 8px;
+}
+
+.artikel {
+    padding-top: 70px;
+}
+
+.artikel section {
+    padding: 100px 100%;
+}
+
+.about img {
+    height: auto;
+    width: 480px;
+}
+
+.about-text {
+    width: 550px;
+}
+
+.main{
+    width: 1130px;
+    max-width: 95%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.about-text h2 {
+    color: #000;
+    font-size: 75px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+}
+
+.about-text h5 {
+    color: #000;
+    letter-spacing: 2px;
+    font-size: 22px;
+    margin-bottom: 25px;
+    text-transform: capitalize;
+}
+
+.about-text p {
+    color: rgb(53, 40, 40);
+    letter-spacing: 1px;
+    line-height: 28px;
+    font-size: 18px;
+    margin-bottom: 45px;
+}
+
+/* .button button{
+    background-color: #f9004d;
+    color: #fff;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 13px 30px;
+    border-radius: 30px;
+    transition: .4s;
+    margin: 1%;
+}
+
+.button a button{
+    color: #fff;
+    text-decoration: none;
+}
+
+button:hover {
+    transform: scale(1.1);
+    border: 2px solid #aeaeae;
+} */
+
+.about-text form button[type="button"] {
+    padding: 12px 20px;
+    background: var(--main-color);
+    color: white;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    margin: 0 10px 20px 0;
+    border-radius: 30px;
+}
+
+.about-text form button[type="button"]:hover {
+    background: white;
+    color: var(--text-color);
+    border: 2px solid var(--main-color);
+    transform: scale(1.1);
+    transition: ease .40s;
 }
